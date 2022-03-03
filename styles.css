@@ -102,12 +102,17 @@ button, .cta {
 button {
     color: white;
     font-weight: 700;
-    padding: 5px 20px;
+    padding: 10px 30px;
     border: none;
 }
 
 .qsection {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
 }
 
 .quote {
@@ -118,4 +123,27 @@ button {
 
 .qauthor {
     font-weight: 700;
+    margin-left: auto;
+}
+
+.cta {
+    margin: 50px 100px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.ctaleft {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta button {
+    border: 2px solid white;
+}
+
+.footer {
+    text-align: center;
+    padding: 25px;
 }
